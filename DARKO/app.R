@@ -37,6 +37,7 @@ source("load_data.R")
 
 #### SETUP APPLICATION ####
 ui <- fluidPage(
+    tags$script(HTML('window.location.replace("https://www.darko.app");')),
   # tags$style(HTML('table.dataTable tr.selected td, table.dataTable td.selected {font-size:125% !important; background-color: unset !important;}')),
   navbarPage(
     "DARKO Exploration",
